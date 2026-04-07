@@ -1,0 +1,2322 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maquillage Permanent Nice | Lea Make-up Studio — Sourcils, Lèvres, Eye-liner</title>
+  <meta name="description" content="Studio de maquillage permanent à Nice. Spécialiste sourcils (microblading, powder brows), lèvres et eye-liner. Consultation offerte. 2 rue Pertinax, Nice. ☎ +33 6 62 55 72 66">
+  <link rel="canonical" href="https://lea-maquillage-nice.risesitelab.com">
+  <meta property="og:title" content="Maquillage Permanent Nice | Lea Make-up Studio">
+  <meta property="og:description" content="Studio de maquillage permanent à Nice. Spécialiste sourcils, lèvres et eye-liner. Consultation offerte.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lea-maquillage-nice.risesitelab.com">
+  <meta property="og:image" content="https://lea-maquillage-nice.risesitelab.com/images/og-image.jpg">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Lato:wght@300;400;700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Lea Maquillage Permanent Nice",
+    "description": "Studio de maquillage permanent à Nice. Spécialiste sourcils, lèvres et eye-liner permanents.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2 rue Pertinax",
+      "addressLocality": "Nice",
+      "postalCode": "06000",
+      "addressCountry": "FR"
+    },
+    "telephone": "+33662557266",
+    "url": "https://lea-maquillage-nice.risesitelab.com",
+    "sameAs": [
+      "https://www.instagram.com/leamakeupstudio",
+      "https://www.facebook.com/leamakeupstudio"
+    ],
+    "openingHours": ["Mo-Sa 09:00-19:00"],
+    "priceRange": "€€€",
+    "image": "https://lea-maquillage-nice.risesitelab.com/images/og-image.jpg"
+  }
+  </script>
+
+  <style>
+    /* ============================================================
+       CSS CUSTOM PROPERTIES
+    ============================================================ */
+    :root {
+      --color-bg: #0E0D0B;
+      --color-bg-section: #151310;
+      --color-gold: #C9A97A;
+      --color-gold-light: #E8D5B0;
+      --color-gold-dim: rgba(201, 169, 122, 0.15);
+      --color-text: #F0EAE0;
+      --color-text-muted: #9A8F82;
+      --color-card: #1A1814;
+      --color-border: #2A2520;
+      --font-serif: 'Cormorant Garamond', serif;
+      --font-sans: 'Lato', sans-serif;
+      --radius: 2px;
+      --shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
+      --shadow-gold: 0 4px 30px rgba(201, 169, 122, 0.12);
+      --transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      --transition-slow: all 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      --container: 1200px;
+      --nav-height: 80px;
+    }
+
+    /* ============================================================
+       RESET & BASE
+    ============================================================ */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      background-color: var(--color-bg);
+      color: var(--color-text);
+      font-family: var(--font-sans);
+      font-weight: 300;
+      line-height: 1.7;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* Grain texture overlay */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+      opacity: 0.025;
+      pointer-events: none;
+      z-index: 1000;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    ul { list-style: none; }
+
+    /* ============================================================
+       TYPOGRAPHY
+    ============================================================ */
+    h1, h2, h3, h4 {
+      font-family: var(--font-serif);
+      font-weight: 400;
+      line-height: 1.15;
+    }
+
+    .section-label {
+      font-family: var(--font-sans);
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--color-gold);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .section-label::after {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 1px;
+      background: var(--color-gold);
+    }
+
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: clamp(2.2rem, 4vw, 3.5rem);
+      font-weight: 400;
+      color: var(--color-text);
+      line-height: 1.1;
+    }
+
+    .section-subtitle {
+      font-family: var(--font-sans);
+      font-size: 0.95rem;
+      font-weight: 300;
+      color: var(--color-text-muted);
+      max-width: 520px;
+      line-height: 1.8;
+    }
+
+    /* ============================================================
+       LAYOUT UTILITIES
+    ============================================================ */
+    .container {
+      max-width: var(--container);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    @media (min-width: 768px) {
+      .container { padding: 0 48px; }
+    }
+
+    @media (min-width: 1200px) {
+      .container { padding: 0 64px; }
+    }
+
+    .section {
+      padding: 100px 0;
+      position: relative;
+    }
+
+    @media (min-width: 768px) {
+      .section { padding: 120px 0; }
+    }
+
+    /* Scroll reveal */
+    .reveal {
+      opacity: 0;
+      transform: translateY(32px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.3s; }
+    .reveal-delay-4 { transition-delay: 0.4s; }
+
+    /* Gold line separator */
+    .gold-line {
+      display: block;
+      width: 60px;
+      height: 1px;
+      background: var(--color-gold);
+      margin: 24px 0;
+    }
+
+    /* ============================================================
+       BUTTONS
+    ============================================================ */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--font-sans);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      padding: 14px 32px;
+      border: 1px solid;
+      cursor: pointer;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+
+    .btn:hover::before { transform: scaleX(1); }
+
+    .btn span { position: relative; z-index: 1; }
+
+    .btn-primary {
+      background: var(--color-gold);
+      color: var(--color-bg);
+      border-color: var(--color-gold);
+    }
+
+    .btn-primary::before {
+      background: var(--color-gold-light);
+    }
+
+    .btn-primary:hover {
+      color: var(--color-bg);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--color-gold);
+      border-color: var(--color-gold);
+    }
+
+    .btn-outline::before {
+      background: var(--color-gold-dim);
+    }
+
+    .btn-outline:hover {
+      color: var(--color-gold-light);
+    }
+
+    /* ============================================================
+       NAVIGATION
+    ============================================================ */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 900;
+      height: var(--nav-height);
+      display: flex;
+      align-items: center;
+      transition: background 0.4s ease, backdrop-filter 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .nav.scrolled {
+      background: rgba(14, 13, 11, 0.95);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: 0 1px 0 var(--color-border);
+    }
+
+    .nav__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .nav__logo {
+      font-family: var(--font-serif);
+      font-size: 1.75rem;
+      font-weight: 400;
+      color: var(--color-gold);
+      letter-spacing: 0.08em;
+      line-height: 1;
+    }
+
+    .nav__logo span {
+      display: block;
+      font-size: 0.5rem;
+      font-family: var(--font-sans);
+      font-weight: 300;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--color-text-muted);
+      margin-top: 2px;
+    }
+
+    .nav__links {
+      display: none;
+      align-items: center;
+      gap: 36px;
+    }
+
+    @media (min-width: 1024px) {
+      .nav__links { display: flex; }
+    }
+
+    .nav__links a {
+      font-size: 0.7rem;
+      font-weight: 400;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--color-text-muted);
+      transition: color 0.3s ease;
+    }
+
+    .nav__links a:hover {
+      color: var(--color-gold);
+    }
+
+    .nav__cta {
+      display: none;
+    }
+
+    @media (min-width: 768px) {
+      .nav__cta { display: inline-flex; }
+    }
+
+    /* Hamburger */
+    .nav__hamburger {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 4px;
+    }
+
+    @media (min-width: 1024px) {
+      .nav__hamburger { display: none; }
+    }
+
+    .nav__hamburger span {
+      display: block;
+      width: 24px;
+      height: 1px;
+      background: var(--color-gold);
+      transition: var(--transition);
+    }
+
+    .nav__hamburger.open span:nth-child(1) {
+      transform: translateY(6px) rotate(45deg);
+    }
+
+    .nav__hamburger.open span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .nav__hamburger.open span:nth-child(3) {
+      transform: translateY(-6px) rotate(-45deg);
+    }
+
+    /* Mobile menu */
+    .nav__mobile {
+      position: fixed;
+      top: var(--nav-height);
+      left: 0;
+      right: 0;
+      background: rgba(14, 13, 11, 0.98);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--color-border);
+      padding: 32px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      transform: translateY(-100%);
+      opacity: 0;
+      pointer-events: none;
+      transition: transform 0.4s ease, opacity 0.4s ease;
+      z-index: 899;
+    }
+
+    .nav__mobile.open {
+      transform: translateY(0);
+      opacity: 1;
+      pointer-events: all;
+    }
+
+    .nav__mobile a {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      color: var(--color-text);
+      border-bottom: 1px solid var(--color-border);
+      padding-bottom: 16px;
+      transition: color 0.3s ease;
+    }
+
+    .nav__mobile a:hover {
+      color: var(--color-gold);
+    }
+
+    /* ============================================================
+       HERO
+    ============================================================ */
+    .hero {
+      position: relative;
+      height: 100vh;
+      min-height: 600px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .hero__bg {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }
+
+    .hero__bg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+    }
+
+    .hero__overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to right,
+        rgba(14, 13, 11, 0.92) 0%,
+        rgba(14, 13, 11, 0.70) 50%,
+        rgba(14, 13, 11, 0.40) 100%
+      );
+      z-index: 1;
+    }
+
+    .hero__content {
+      position: relative;
+      z-index: 2;
+      max-width: 680px;
+    }
+
+    .hero__eyebrow {
+      font-family: var(--font-sans);
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--color-gold);
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      opacity: 0;
+      animation: fadeUp 0.8s ease 0.2s forwards;
+    }
+
+    .hero__eyebrow::before {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 1px;
+      background: var(--color-gold);
+    }
+
+    .hero__h1 {
+      font-family: var(--font-serif);
+      font-size: clamp(3rem, 7vw, 6rem);
+      font-weight: 300;
+      line-height: 1.05;
+      color: var(--color-text);
+      margin-bottom: 28px;
+      opacity: 0;
+      animation: fadeUp 0.9s ease 0.4s forwards;
+    }
+
+    .hero__h1 em {
+      font-style: italic;
+      color: var(--color-gold);
+    }
+
+    .hero__subtitle {
+      font-size: 0.95rem;
+      font-weight: 300;
+      color: var(--color-text-muted);
+      line-height: 1.9;
+      margin-bottom: 40px;
+      opacity: 0;
+      animation: fadeUp 0.9s ease 0.6s forwards;
+    }
+
+    .hero__subtitle strong {
+      color: var(--color-gold-light);
+      font-weight: 400;
+    }
+
+    .hero__ctas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 48px;
+      opacity: 0;
+      animation: fadeUp 0.9s ease 0.8s forwards;
+    }
+
+    .hero__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.75rem;
+      font-weight: 300;
+      color: var(--color-gold);
+      border: 1px solid rgba(201, 169, 122, 0.3);
+      padding: 10px 20px;
+      opacity: 0;
+      animation: fadeUp 0.9s ease 1s forwards;
+    }
+
+    .hero__badge::before {
+      content: '✦';
+      font-size: 0.6rem;
+    }
+
+    /* Scroll indicator */
+    .hero__scroll {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.6rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--color-text-muted);
+      opacity: 0;
+      animation: fadeIn 1s ease 1.4s forwards;
+    }
+
+    .hero__scroll-line {
+      width: 1px;
+      height: 48px;
+      background: linear-gradient(to bottom, var(--color-gold), transparent);
+      animation: scrollLine 2s ease-in-out 1.6s infinite;
+    }
+
+    @keyframes scrollLine {
+      0%, 100% { transform: scaleY(1); opacity: 1; }
+      50% { transform: scaleY(0.5); opacity: 0.3; }
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* ============================================================
+       TRUST BAR
+    ============================================================ */
+    .trust-bar {
+      background: var(--color-card);
+      border-top: 1px solid var(--color-border);
+      border-bottom: 1px solid var(--color-border);
+      padding: 48px 0;
+    }
+
+    .trust-bar__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+    }
+
+    @media (min-width: 768px) {
+      .trust-bar__grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0;
+      }
+    }
+
+    .trust-bar__item {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      position: relative;
+    }
+
+    @media (min-width: 768px) {
+      .trust-bar__item {
+        padding: 0 32px;
+        border-right: 1px solid var(--color-border);
+      }
+
+      .trust-bar__item:first-child { padding-left: 0; }
+      .trust-bar__item:last-child {
+        border-right: none;
+        padding-right: 0;
+      }
+    }
+
+    .trust-bar__icon {
+      font-size: 1rem;
+      color: var(--color-gold);
+      margin-bottom: 4px;
+    }
+
+    .trust-bar__title {
+      font-family: var(--font-serif);
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: var(--color-text);
+    }
+
+    .trust-bar__text {
+      font-size: 0.8rem;
+      font-weight: 300;
+      color: var(--color-text-muted);
+      line-height: 1.6;
+    }
+
+    /* ============================================================
+       SERVICES
+    ============================================================ */
+    .services {
+      background: var(--color-bg);
+    }
+
+    .services__header {
+      margin-bottom: 64px;
+    }
+
+    .services__grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2px;
+    }
+
+    @media (min-width: 768px) {
+      .services__grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .service-card {
+      background: var(--color-card);
+      padding: 48px 40px;
+      position: relative;
+      overflow: hidden;
+      transition: var(--transition);
+    }
+
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 2px;
+      height: 0;
+      background: var(--color-gold);
+      transition: height 0.5s ease;
+    }
+
+    .service-card:hover::before {
+      height: 100%;
+    }
+
+    .service-card::after {
+      content: attr(data-number);
+      position: absolute;
+      top: 24px;
+      right: 32px;
+      font-family: var(--font-serif);
+      font-size: 5rem;
+      font-weight: 300;
+      color: rgba(201, 169, 122, 0.06);
+      line-height: 1;
+      pointer-events: none;
+      transition: var(--transition);
+    }
+
+    .service-card:hover::after {
+      color: rgba(201, 169, 122, 0.1);
+    }
+
+    .service-card__icon {
+      font-size: 1.2rem;
+      color: var(--color-gold);
+      margin-bottom: 24px;
+      display: block;
+    }
+
+    .service-card__title {
+      font-family: var(--font-serif);
+      font-size: 1.8rem;
+      font-weight: 400;
+      color: var(--color-text);
+      margin-bottom: 8px;
+    }
+
+    .service-card__subtitle {
+      font-size: 0.7rem;
+      font-weight: 400;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--color-gold);
+      margin-bottom: 20px;
+    }
+
+    .service-card__desc {
+      font-size: 0.88rem;
+      font-weight: 300;
+      color: var(--color-text-muted);
+      line-height: 1.8;
+      margin-bottom: 28px;
+    }
+
+    .service-card__price {
+      font-family: var(--font-serif);
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: var(--color-gold);
+    }
+
+    .service-card__price-note {
+      font-size: 0.72rem;
+      font-weight: 300;
+      color: var(--color-text-muted);
+      margin-top: 8px;
+      letter-spacing: 0.05em;
+    }
+
+    .services__note {
+      margin-top: 40px;
+      padding: 24px 32px;
+      border: 1px solid var(--color-border);
+      font-size: 0.82rem;
+      font-weight: 300;
+      color: var(--color-text-muted);
+      text-align: center;
+      font-style: italic;
+    }
+
+    /* ============================================================
+       PORTFOLIO
+    ============================================================ */
+    .portfolio {
+      background: var(--color-bg-section);
+    }
+
+    .portfolio__header {
+      margin-bottom: 56px;
+    }
+
+    .portfolio__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3px;
+    }
+
+    @media (min-width: 768px) {
+      .portfolio__grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .portfolio__item {
+      position: relative;
+      overflow: hidden;
+      aspect-ratio: 4/5;
+      cursor: pointer;
+    }
+
+    .portfolio__item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+
+    .portfolio__item:hover img {
+      transform: scale(1.08);
+    }
+
+    .portfolio__caption {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(14,13,11,0.9) 0%, transparent 50%);
+      display: flex;
+      align-items: flex-end;
+      padding: 24px;
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+
+    .portfolio__item:hover .portfolio__caption {
+      opacity: 1;
+    }
+
+    .portfolio__caption-text {
+      font-family: var(--font-serif);
+      font-size: 1rem;
+      font-weight: 400;
+      color: var(--color-gold-light);
+      line-height: 1.3;
+    }
+
+    .portfolio__cta {
+      margin-top: 56px;
+      text-align: center;
+    }
+
+    .portfolio__cta p {
+      font-family: var(--font-serif);
+      font-size: 1.3rem;
+      font-style: italic;
+      color: var(--color-text-muted);
+      margin-bottom: 24px;
+    }
+
+    /* ============================================================
+       ABOUT
+    ============================================================ */
+    .about {
+      background: var(--color-bg);
+    }
+
+    .about__inner {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+
+    @media (min-width: 768px) {
+      .about__inner {
+        grid-template-columns: 1fr 1fr;
+        gap: 80px;
+      }
+    }
+
+    .about__image-wrap {
+      position: relative;
+    }
+
+    .about__image-wrap::before {
+      content: '';
+      position: absolute;
+      top: -16px;
+      left: -16px;
+      width: 100%;
+      height: 100%;
+      border: 1px solid rgba(201, 169, 122, 0.25);
+      pointer-events: none;
+      z-index: 0;
+      transition: var(--transition-slow);
+    }
+
+    .about__image-wrap:hover::before {
+      top: -20px;
+      left: -20px;
+    }
+
+    .about__image-wrap img {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      aspect-ratio: 3/4;
+      object-fit: cover;
+      object-position: center top;
+    }
+
+    .about__content {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .about__title {
+      font-family: var(--font-serif);
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      font-weight: 400;
+      color: var(--color-text);
+      line-height: 1.2;
+    }
+
+    .about__text {
+      font-size: 0.9rem;
+      font-weight: 300;
+      color: var(--color-text-muted);
+      line-height: 1.9;
+    }
+
+    .about__bullets {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-top: 8px;
+    }
+
+    .about__bullet {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      font-size: 0.88rem;
+      font-weight: 300;
+      color: var(--color-text-muted);
+    }
+
+    .about__bullet-icon {
+      color: var(--color-gold);
+      font-size: 0.7rem;
+      margin-top: 5px;
+      flex-shrink: 0;
+    }
+
+    /* ============================================================
+       TESTIMONIALS
+    ============================================================ */
+    .testimonials {
+      background: var(--color-bg-section);
+    }
+
+    .testimonials__header {
+      margin-bottom: 64px;
+    }
+
+    .testimonials__grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2px;
+    }
+
+    @media (min-width: 768px) {
+      .testimonials__grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .testimonial-card {
+      background: var(--color-card);
+      padding: 40px 36px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      position: relative;
+      overflow: hidden;
+      transition: var(--transition);
+    }
+
+    .testimonial-card:hover {
+      background: #1E1C18;
+    }
+
+    .testimonial-card__quote {
+      font-size: 3rem;
+      color: rgba(201, 169, 122, 0.15);
+      font-family: var(--font-serif);
+      line-height: 1;
+      margin-bottom: -8px;
+    }
+
+    .testimonial-card__stars {
+      display: flex;
+      gap: 4px;
+      color: var(--color-gold);
+      font-size: 0.7rem;
+    }
+
+    .testimonial-card__text {
+      font-family: var(--font-serif);
+      font-size: 1.05rem;
+      font-style: italic;
+      color: var(--color-text);
+      line-height: 1.7;
+      font-weight: 300;
+    }
+
+    .testimonial-card__author {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: auto;
+      padding-top: 20px;
+      border-top: 1px solid var(--color-border);
+    }
+
+    .testimonial-card__avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--color-gold-dim);
+      border: 1px solid rgba(201, 169, 122, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-serif);
+      font-size: 0.9rem;
+      color: var(--color-gold);
+      flex-shrink: 0;
+    }
+
+    .testimonial-card__name {
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--color-text);
+    }
+
+    .testimonial-card__location {
+      font-size: 0.72rem;
+      font-weight: 300;
+      color: var(--color-text-muted);
+    }
+
+    /* ============================================================
+       CONTACT
+    ============================================================ */
+    .contact {
+      background: var(--color-bg);
+    }
+
+    .contact__inner {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 64px;
+    }
+
+    @media (min-width: 1024px) {
+      .contact__inner {
+        grid-template-columns: 1.2fr 1fr;
+        gap: 80px;
+      }
+    }
+
+    .contact__form-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .contact__header {
+      margin-bottom: 8px;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .form__group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .form__row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    @media (min-width: 600px) {
+      .form__row { grid-template-columns: 1fr 1fr; }
+    }
+
+    .form__label {
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--color-text-muted);
+    }
+
+    .form__input,
+    .form__select,
+    .form__textarea {
+      background: var(--color-card);
+      border: 1px solid var(--color-border);
+      color: var(--color-text);
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      font-weight: 300;
+      padding: 14px 18px;
+      width: 100%;
+      outline: none;
+      transition: border-color 0.3s ease;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+
+    .form__select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%239A8F82' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 16px center;
+      padding-right: 40px;
+      cursor: pointer;
+    }
+
+    .form__select option {
+      background: var(--color-card);
+      color: var(--color-text);
+    }
+
+    .form__input:focus,
+    .form__select:focus,
+    .form__textarea:focus {
+      border-color: var(--color-gold);
+    }
+
+    .form__input::placeholder,
+    .form__textarea::placeholder {
+      color: #4A443C;
+    }
+
+    .form__textarea {
+      resize: vertical;
+      min-height: 110px;
+    }
+
+    .form__gdpr {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--color-text-muted);
+      line-height: 1.6;
+    }
+
+    .form__gdpr input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 16px;
+      height: 16px;
+      border: 1px solid var(--color-border);
+      background: var(--color-card);
+      cursor: pointer;
+      flex-shrink: 0;
+      margin-top: 2px;
+      transition: border-color 0.3s ease;
+      position: relative;
+    }
+
+    .form__gdpr input[type="checkbox"]:checked {
+      border-color: var(--color-gold);
+      background: var(--color-gold-dim);
+    }
+
+    .form__gdpr input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.6rem;
+      color: var(--color-gold);
+    }
+
+    .form__gdpr a {
+      color: var(--color-gold);
+      text-decoration: underline;
+      text-decoration-color: rgba(201, 169, 122, 0.4);
+    }
+
+    /* Honeypot */
+    .form__honeypot {
+      position: absolute;
+      left: -9999px;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .form__submit {
+      align-self: flex-start;
+    }
+
+    /* Contact info */
+    .contact__info {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    .contact__info-title {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: var(--color-text);
+      margin-bottom: 24px;
+    }
+
+    .contact__details {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .contact__detail {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+    }
+
+    .contact__detail-icon {
+      width: 36px;
+      height: 36px;
+      border: 1px solid var(--color-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      color: var(--color-gold);
+      flex-shrink: 0;
+    }
+
+    .contact__detail-label {
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--color-text-muted);
+      margin-bottom: 4px;
+    }
+
+    .contact__detail-value {
+      font-size: 0.9rem;
+      font-weight: 300;
+      color: var(--color-text);
+      line-height: 1.6;
+    }
+
+    .contact__detail-value a {
+      color: var(--color-gold);
+      transition: color 0.3s ease;
+    }
+
+    .contact__detail-value a:hover {
+      color: var(--color-gold-light);
+    }
+
+    .contact__whatsapp {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(37, 211, 102, 0.1);
+      border: 1px solid rgba(37, 211, 102, 0.25);
+      color: #25D366;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      padding: 12px 24px;
+      transition: var(--transition);
+    }
+
+    .contact__whatsapp:hover {
+      background: rgba(37, 211, 102, 0.18);
+      color: #25D366;
+    }
+
+    .contact__map {
+      border: 1px solid var(--color-border);
+      overflow: hidden;
+      height: 200px;
+    }
+
+    .contact__map iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      filter: grayscale(100%) invert(90%) contrast(80%);
+    }
+
+    /* ============================================================
+       FOOTER
+    ============================================================ */
+    .footer {
+      background: var(--color-card);
+      border-top: 1px solid var(--color-border);
+      padding: 64px 0 32px;
+    }
+
+    .footer__top {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 48px;
+      margin-bottom: 48px;
+    }
+
+    @media (min-width: 768px) {
+      .footer__top {
+        grid-template-columns: 1.5fr 1fr 1fr;
+        gap: 64px;
+      }
+    }
+
+    .footer__brand {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .footer__logo {
+      font-family: var(--font-serif);
+      font-size: 2rem;
+      font-weight: 400;
+      color: var(--color-gold);
+    }
+
+    .footer__tagline {
+      font-size: 0.82rem;
+      font-weight: 300;
+      color: var(--color-text-muted);
+      font-style: italic;
+      font-family: var(--font-serif);
+    }
+
+    .footer__social {
+      display: flex;
+      gap: 12px;
+      margin-top: 8px;
+    }
+
+    .footer__social a {
+      width: 36px;
+      height: 36px;
+      border: 1px solid var(--color-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      color: var(--color-text-muted);
+      transition: var(--transition);
+    }
+
+    .footer__social a:hover {
+      border-color: var(--color-gold);
+      color: var(--color-gold);
+    }
+
+    .footer__col-title {
+      font-family: var(--font-sans);
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--color-gold);
+      margin-bottom: 20px;
+    }
+
+    .footer__links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .footer__links a {
+      font-size: 0.85rem;
+      font-weight: 300;
+      color: var(--color-text-muted);
+      transition: color 0.3s ease;
+    }
+
+    .footer__links a:hover {
+      color: var(--color-gold);
+    }
+
+    .footer__bottom {
+      padding-top: 32px;
+      border-top: 1px solid var(--color-border);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: center;
+      text-align: center;
+    }
+
+    @media (min-width: 768px) {
+      .footer__bottom {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+      }
+    }
+
+    .footer__copyright {
+      font-size: 0.75rem;
+      font-weight: 300;
+      color: var(--color-text-muted);
+    }
+
+    .footer__copyright a {
+      color: var(--color-gold);
+      transition: color 0.3s ease;
+    }
+
+    .footer__copyright a:hover {
+      color: var(--color-gold-light);
+    }
+
+    .footer__legal {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .footer__legal a {
+      font-size: 0.72rem;
+      font-weight: 300;
+      color: var(--color-text-muted);
+      transition: color 0.3s ease;
+    }
+
+    .footer__legal a:hover {
+      color: var(--color-gold);
+    }
+
+    /* ============================================================
+       WHATSAPP FLOAT
+    ============================================================ */
+    .wa-float {
+      position: fixed;
+      bottom: 32px;
+      right: 28px;
+      z-index: 800;
+      width: 56px;
+      height: 56px;
+      background: #25D366;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 24px rgba(37, 211, 102, 0.35);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: waPulse 3s ease-in-out 2s infinite;
+    }
+
+    .wa-float:hover {
+      transform: scale(1.08);
+      box-shadow: 0 8px 32px rgba(37, 211, 102, 0.45);
+    }
+
+    .wa-float svg {
+      width: 26px;
+      height: 26px;
+      fill: #fff;
+    }
+
+    @keyframes waPulse {
+      0%, 100% { box-shadow: 0 4px 24px rgba(37, 211, 102, 0.35); }
+      50% { box-shadow: 0 4px 32px rgba(37, 211, 102, 0.55), 0 0 0 8px rgba(37, 211, 102, 0.08); }
+    }
+
+    /* ============================================================
+       SUCCESS MODAL
+    ============================================================ */
+    .modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(14, 13, 11, 0.92);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 9999;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .modal.active {
+      display: flex;
+    }
+
+    .modal__box {
+      background: var(--color-card);
+      border: 1px solid var(--color-border);
+      padding: 56px 48px;
+      max-width: 480px;
+      width: 100%;
+      text-align: center;
+      position: relative;
+      animation: modalIn 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    }
+
+    @keyframes modalIn {
+      from { opacity: 0; transform: translateY(24px) scale(0.97); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    .modal__icon {
+      font-size: 2rem;
+      color: var(--color-gold);
+      margin-bottom: 16px;
+    }
+
+    .modal__title {
+      font-family: var(--font-serif);
+      font-size: 2rem;
+      font-weight: 400;
+      color: var(--color-text);
+      margin-bottom: 16px;
+    }
+
+    .modal__text {
+      font-size: 0.88rem;
+      font-weight: 300;
+      color: var(--color-text-muted);
+      line-height: 1.8;
+      margin-bottom: 32px;
+    }
+
+    .modal__close {
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* ============================================================
+       SECTION DIVIDERS — gold ornament
+    ============================================================ */
+    .section-ornament {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .section-ornament__line {
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--color-border));
+    }
+
+    .section-ornament__line--right {
+      background: linear-gradient(to left, transparent, var(--color-border));
+    }
+
+    .section-ornament__diamond {
+      width: 6px;
+      height: 6px;
+      background: var(--color-gold);
+      transform: rotate(45deg);
+      flex-shrink: 0;
+    }
+
+    /* ============================================================
+       RESPONSIVE UTILITIES
+    ============================================================ */
+    @media (max-width: 767px) {
+      .hero__ctas { flex-direction: column; align-items: flex-start; }
+      .service-card { padding: 36px 28px; }
+      .testimonial-card { padding: 32px 28px; }
+      .contact__map { height: 160px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- SUCCESS MODAL -->
+  <div id="success-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal__box">
+      <div class="modal__icon">✦</div>
+      <h2 class="modal__title" id="modal-title">Merci !</h2>
+      <p class="modal__text">
+        Votre message a bien été envoyé.<br>
+        Lea vous contactera dans les <strong>24 heures</strong> pour confirmer votre rendez-vous.
+      </p>
+      <button class="btn btn-primary modal__close" onclick="document.getElementById('success-modal').classList.remove('active')">
+        <span>Fermer</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <header class="nav" id="nav">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="#" class="nav__logo" aria-label="Lea Maquillage Permanent Nice">
+          Lea
+          <span>Maquillage Permanent</span>
+        </a>
+
+        <nav class="nav__links" aria-label="Navigation principale">
+          <a href="#accueil">Accueil</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#about">À propos</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="https://wa.me/33662557266" target="_blank" rel="noopener" class="btn btn-primary nav__cta">
+          <span>Prendre RDV</span>
+        </a>
+
+        <button class="nav__hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <nav class="nav__mobile" id="mobile-menu" aria-label="Menu mobile">
+    <a href="#accueil" class="mobile-link">Accueil</a>
+    <a href="#services" class="mobile-link">Services</a>
+    <a href="#portfolio" class="mobile-link">Portfolio</a>
+    <a href="#about" class="mobile-link">À propos</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+    <a href="https://wa.me/33662557266" target="_blank" rel="noopener" class="btn btn-primary" style="align-self:flex-start;margin-top:8px;">
+      <span>Prendre RDV</span>
+    </a>
+  </nav>
+
+  <main id="accueil">
+
+    <!-- ===========================
+         HERO
+    =========================== -->
+    <section class="hero">
+      <div class="hero__bg">
+        <img src="images/hero.jpg"
+             alt="Spécialiste maquillage permanent Nice — résultats naturels"
+             width="1600" height="900"
+             loading="eager"
+             fetchpriority="high">
+      </div>
+      <div class="hero__overlay"></div>
+
+      <div class="container">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Maquillage Permanent · Nice</p>
+
+          <h1 class="hero__h1">
+            Révélez votre<br>
+            <em>beauté naturelle</em>
+          </h1>
+
+          <p class="hero__subtitle">
+            Spécialiste en maquillage permanent à Nice<br>
+            <strong>Sourcils · Lèvres · Eye-liner</strong> — Résultats naturels et durables
+          </p>
+
+          <div class="hero__ctas">
+            <a href="#contact" class="btn btn-primary">
+              <span>Prendre rendez-vous</span>
+            </a>
+            <a href="#portfolio" class="btn btn-outline">
+              <span>Voir le portfolio</span>
+            </a>
+          </div>
+
+          <div class="hero__badge">
+            +1 000 clientes satisfaites à Nice et sur la Côte d'Azur
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll" aria-hidden="true">
+        <div class="hero__scroll-line"></div>
+        <span>Défiler</span>
+      </div>
+    </section>
+
+    <!-- ===========================
+         TRUST BAR
+    =========================== -->
+    <section class="trust-bar" aria-label="Nos engagements">
+      <div class="container">
+        <div class="trust-bar__grid">
+          <div class="trust-bar__item reveal">
+            <div class="trust-bar__icon" aria-hidden="true">✦</div>
+            <div class="trust-bar__title">Résultats naturels</div>
+            <div class="trust-bar__text">Technique précise, esthétique douce et discrète</div>
+          </div>
+          <div class="trust-bar__item reveal reveal-delay-1">
+            <div class="trust-bar__icon" aria-hidden="true">◇</div>
+            <div class="trust-bar__title">Consultation offerte</div>
+            <div class="trust-bar__text">Accompagnement personnalisé avant chaque prestation</div>
+          </div>
+          <div class="trust-bar__item reveal reveal-delay-2">
+            <div class="trust-bar__icon" aria-hidden="true">✦</div>
+            <div class="trust-bar__title">+1 000 clientes</div>
+            <div class="trust-bar__text">Satisfaites à Nice et sur toute la Côte d'Azur</div>
+          </div>
+          <div class="trust-bar__item reveal reveal-delay-3">
+            <div class="trust-bar__icon" aria-hidden="true">◇</div>
+            <div class="trust-bar__title">Praticienne certifiée</div>
+            <div class="trust-bar__text">Formation professionnelle, hygiène irréprochable</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================
+         SERVICES
+    =========================== -->
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="services__header reveal">
+          <p class="section-label">Nos prestations</p>
+          <span class="gold-line"></span>
+          <h2 class="section-title" id="services-title">
+            L'art du maquillage<br>permanent
+          </h2>
+          <p class="section-subtitle" style="margin-top:16px;">
+            Chaque traitement est personnalisé selon votre morphologie et vos envies
+          </p>
+        </div>
+
+        <div class="services__grid">
+          <article class="service-card reveal reveal-delay-1" data-number="01">
+            <span class="service-card__icon" aria-hidden="true">⌒</span>
+            <h3 class="service-card__title">Sourcils Permanents</h3>
+            <p class="service-card__subtitle">Microblading · Powder Brows · Ombré Brows</p>
+            <p class="service-card__desc">
+              Redessinés, densifiés ou structurés — vos sourcils sublimés en une séance. La technique est choisie en fonction de votre type de peau et du rendu souhaité : naturel, défini ou effet poudre.
+            </p>
+            <div class="service-card__price">À partir de 280 €</div>
+            <p class="service-card__price-note">Retouche incluse 4–8 semaines après la séance</p>
+          </article>
+
+          <article class="service-card reveal reveal-delay-2" data-number="02">
+            <span class="service-card__icon" aria-hidden="true">◡</span>
+            <h3 class="service-card__title">Lèvres Rehaussées</h3>
+            <p class="service-card__subtitle">Aquarelle Lips · Contour Naturel · Blush Lèvres</p>
+            <p class="service-card__desc">
+              Des lèvres plus définies, plus volumineuses, plus colorées — sans rouge à lèvres. La technique Aquarelle Lips apporte une teinte naturelle et un contour doux pour un sourire lumineux toute la journée.
+            </p>
+            <div class="service-card__price">À partir de 250 €</div>
+            <p class="service-card__price-note">Retouche incluse 4–8 semaines après la séance</p>
+          </article>
+
+          <article class="service-card reveal reveal-delay-3" data-number="03">
+            <span class="service-card__icon" aria-hidden="true">◉</span>
+            <h3 class="service-card__title">Eye-liner Permanent</h3>
+            <p class="service-card__subtitle">Supérieur · Inférieur · Trait fin ou intense</p>
+            <p class="service-card__desc">
+              Un regard intense et défini dès le réveil. L'eye-liner permanent s'adapte à votre style : trait fin et naturel ou ligne plus marquée et dramatique. Résultat waterproof, toute la journée.
+            </p>
+            <div class="service-card__price">À partir de 200 €</div>
+            <p class="service-card__price-note">Retouche incluse 4–8 semaines après la séance</p>
+          </article>
+        </div>
+
+        <p class="services__note reveal">
+          Consultation personnalisée offerte avant toute prestation · Prise en charge individuelle · Hygiène et matériel stérile à usage unique
+        </p>
+      </div>
+    </section>
+
+    <!-- ===========================
+         PORTFOLIO
+    =========================== -->
+    <section class="section portfolio" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="container">
+        <div class="portfolio__header reveal">
+          <p class="section-label">Nos réalisations</p>
+          <span class="gold-line"></span>
+          <h2 class="section-title" id="portfolio-title">
+            Chaque résultat<br>est unique
+          </h2>
+          <p class="section-subtitle" style="margin-top:16px;">
+            Découvrez les transformations réalisées par Lea à Nice
+          </p>
+        </div>
+
+        <div class="portfolio__grid">
+          <div class="portfolio__item reveal reveal-delay-1">
+            <img src="images/portfolio-1.jpg"
+                 alt="Powder brows résultat naturel — Lea Maquillage Permanent Nice"
+                 width="800" height="1000" loading="lazy">
+            <div class="portfolio__caption">
+              <p class="portfolio__caption-text">Powder Brows<br><small style="font-size:0.75rem;opacity:0.7;">effet naturel et structuré</small></p>
+            </div>
+          </div>
+          <div class="portfolio__item reveal reveal-delay-2">
+            <img src="images/portfolio-2.jpg"
+                 alt="Microblading naturel résultat — maquillage permanent Nice"
+                 width="800" height="1000" loading="lazy">
+            <div class="portfolio__caption">
+              <p class="portfolio__caption-text">Microblading<br><small style="font-size:0.75rem;opacity:0.7;">poils à poils, ultra-naturel</small></p>
+            </div>
+          </div>
+          <div class="portfolio__item reveal reveal-delay-3">
+            <img src="images/portfolio-3.jpg"
+                 alt="Lèvres aquarelle permanent makeup résultat Nice"
+                 width="800" height="1000" loading="lazy">
+            <div class="portfolio__caption">
+              <p class="portfolio__caption-text">Lèvres Aquarelle<br><small style="font-size:0.75rem;opacity:0.7;">teinte douce et lumineuse</small></p>
+            </div>
+          </div>
+          <div class="portfolio__item reveal reveal-delay-1">
+            <img src="images/portfolio-4.jpg"
+                 alt="Eye-liner permanent résultat — Lea Make-up Studio Nice"
+                 width="800" height="1000" loading="lazy">
+            <div class="portfolio__caption">
+              <p class="portfolio__caption-text">Eye-liner permanent<br><small style="font-size:0.75rem;opacity:0.7;">regard intense et défini</small></p>
+            </div>
+          </div>
+          <div class="portfolio__item reveal reveal-delay-2">
+            <img src="images/portfolio-5.jpg"
+                 alt="Ombré brows permanent makeup Nice Côte d'Azur"
+                 width="800" height="1000" loading="lazy">
+            <div class="portfolio__caption">
+              <p class="portfolio__caption-text">Ombré Brows<br><small style="font-size:0.75rem;opacity:0.7;">dégradé doux et féminin</small></p>
+            </div>
+          </div>
+          <div class="portfolio__item reveal reveal-delay-3">
+            <img src="images/portfolio-6.jpg"
+                 alt="Sourcils redessinés maquillage permanent Nice"
+                 width="800" height="1000" loading="lazy">
+            <div class="portfolio__caption">
+              <p class="portfolio__caption-text">Sourcils redessinés<br><small style="font-size:0.75rem;opacity:0.7;">correction de forme parfaite</small></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio__cta reveal">
+          <p>Envie d'un résultat similaire ?</p>
+          <a href="#contact" class="btn btn-primary">
+            <span>Prendre rendez-vous</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================
+         ABOUT
+    =========================== -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="about__inner">
+          <div class="about__image-wrap reveal">
+            <img src="images/about.jpg"
+                 alt="Studio de maquillage permanent Lea Nice"
+                 width="800" height="1067" loading="lazy">
+          </div>
+
+          <div class="about__content reveal reveal-delay-2">
+            <p class="section-label">À propos</p>
+            <span class="gold-line"></span>
+            <h2 class="about__title" id="about-title">
+              Votre spécialiste en maquillage permanent à Nice
+            </h2>
+            <p class="about__text">
+              Bienvenue chez Lea Make-up Studio, votre espace dédié au maquillage permanent au cœur de Nice.
+            </p>
+            <p class="about__text">
+              Passionnée par l'esthétique et le bien-être, je me suis spécialisée dans les techniques de maquillage permanent pour offrir à mes clientes un résultat naturel, durable et adapté à chaque morphologie.
+            </p>
+            <p class="about__text">
+              Mon approche est simple : vous écouter, comprendre vos envies et vous proposer la technique la plus adaptée à votre peau et à votre style de vie. Chaque prestation commence par une consultation offerte — parce que votre satisfaction passe avant tout.
+            </p>
+
+            <ul class="about__bullets">
+              <li class="about__bullet">
+                <span class="about__bullet-icon" aria-hidden="true">✦</span>
+                <span>Praticienne certifiée en techniques PMU</span>
+              </li>
+              <li class="about__bullet">
+                <span class="about__bullet-icon" aria-hidden="true">✦</span>
+                <span>+1 000 clientes accompagnées</span>
+              </li>
+              <li class="about__bullet">
+                <span class="about__bullet-icon" aria-hidden="true">✦</span>
+                <span>Matériel stérile à usage unique, hygiène stricte</span>
+              </li>
+              <li class="about__bullet">
+                <span class="about__bullet-icon" aria-hidden="true">✦</span>
+                <span>Studio au cœur de Nice — 2 rue Pertinax</span>
+              </li>
+            </ul>
+
+            <a href="#contact" class="btn btn-outline" style="margin-top:8px;">
+              <span>Consultation offerte</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================
+         TESTIMONIALS
+    =========================== -->
+    <section class="section testimonials" id="avis" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="testimonials__header reveal">
+          <p class="section-label">Témoignages</p>
+          <span class="gold-line"></span>
+          <h2 class="section-title" id="testimonials-title">
+            Ce que disent<br>nos clientes
+          </h2>
+        </div>
+
+        <div class="testimonials__grid">
+          <article class="testimonial-card reveal reveal-delay-1">
+            <div class="testimonial-card__quote" aria-hidden="true">"</div>
+            <div class="testimonial-card__stars" aria-label="5 étoiles sur 5">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="testimonial-card__text">
+              "Je voulais des sourcils plus définis sans avoir l'air artificielle. Lea a parfaitement compris ce que je souhaitais. Le résultat est naturel et j'adore me lever le matin sans avoir à me maquiller !"
+            </p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">S</div>
+              <div>
+                <div class="testimonial-card__name">Sophie M.</div>
+                <div class="testimonial-card__location">Nice</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal reveal-delay-2">
+            <div class="testimonial-card__quote" aria-hidden="true">"</div>
+            <div class="testimonial-card__stars" aria-label="5 étoiles sur 5">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="testimonial-card__text">
+              "Après ma séance de lèvres Aquarelle, tout le monde me demande si je porte un gloss. Le résultat est discret mais transformateur. Lea est très professionnelle et vraiment à l'écoute."
+            </p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">I</div>
+              <div>
+                <div class="testimonial-card__name">Isabelle R.</div>
+                <div class="testimonial-card__location">Antibes</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal reveal-delay-3">
+            <div class="testimonial-card__quote" aria-hidden="true">"</div>
+            <div class="testimonial-card__stars" aria-label="5 étoiles sur 5">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="testimonial-card__text">
+              "Je recommande vivement Lea Make-up Studio. L'eye-liner permanent a changé mon quotidien. Je gagne un temps fou le matin et le résultat est impeccable après 6 mois."
+            </p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">M</div>
+              <div>
+                <div class="testimonial-card__name">Marine L.</div>
+                <div class="testimonial-card__location">Nice</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================
+         CONTACT
+    =========================== -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact__inner">
+
+          <!-- Form -->
+          <div class="contact__form-wrap">
+            <div class="contact__header reveal">
+              <p class="section-label">Prise de rendez-vous</p>
+              <span class="gold-line"></span>
+              <h2 class="section-title" id="contact-title">
+                Prenez<br>rendez-vous
+              </h2>
+              <p class="section-subtitle" style="margin-top:16px;">
+                Remplissez le formulaire ou contactez-nous directement par WhatsApp. Réponse sous 24h.
+              </p>
+            </div>
+
+            <form class="form reveal reveal-delay-1" id="contact-form" novalidate>
+              <!-- Honeypot -->
+              <input type="text" name="botcheck" class="form__honeypot" tabindex="-1" autocomplete="off">
+
+              <div class="form__row">
+                <div class="form__group">
+                  <label class="form__label" for="prenom">Prénom <span aria-hidden="true">*</span></label>
+                  <input class="form__input" type="text" id="prenom" name="prenom"
+                         placeholder="Votre prénom" required autocomplete="given-name">
+                </div>
+                <div class="form__group">
+                  <label class="form__label" for="telephone">Téléphone / WhatsApp <span aria-hidden="true">*</span></label>
+                  <input class="form__input" type="tel" id="telephone" name="telephone"
+                         placeholder="+33 6 XX XX XX XX" required autocomplete="tel">
+                </div>
+              </div>
+
+              <div class="form__group">
+                <label class="form__label" for="service">Prestation souhaitée <span aria-hidden="true">*</span></label>
+                <select class="form__select" id="service" name="service" required>
+                  <option value="" disabled selected>Choisissez une prestation</option>
+                  <option value="sourcils">Sourcils (Microblading / Powder Brows / Ombré)</option>
+                  <option value="levres">Lèvres (Aquarelle Lips / Contour)</option>
+                  <option value="eyeliner">Eye-liner Permanent</option>
+                  <option value="retouche">Retouche</option>
+                  <option value="autre">Autre / Consultation</option>
+                </select>
+              </div>
+
+              <div class="form__group">
+                <label class="form__label" for="message">Votre message <span style="font-weight:300;text-transform:none;letter-spacing:0">(optionnel)</span></label>
+                <textarea class="form__textarea" id="message" name="message"
+                          placeholder="Dites-nous en plus sur votre projet…"></textarea>
+              </div>
+
+              <div class="form__gdpr">
+                <input type="checkbox" id="gdpr-consent" name="gdpr" required>
+                <label for="gdpr-consent">
+                  J'accepte que mes données personnelles soient utilisées pour traiter ma demande de rendez-vous, conformément à la
+                  <a href="privacy.html">Politique de confidentialité</a>.
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-primary form__submit">
+                <span>Envoyer ma demande</span>
+              </button>
+            </form>
+          </div>
+
+          <!-- Info -->
+          <div class="contact__info reveal reveal-delay-2">
+            <div>
+              <h3 class="contact__info-title">Nos coordonnées</h3>
+              <div class="contact__details">
+                <div class="contact__detail">
+                  <div class="contact__detail-icon" aria-hidden="true">📍</div>
+                  <div>
+                    <div class="contact__detail-label">Adresse</div>
+                    <div class="contact__detail-value">
+                      2 rue Pertinax<br>06000 Nice, France
+                    </div>
+                  </div>
+                </div>
+                <div class="contact__detail">
+                  <div class="contact__detail-icon" aria-hidden="true">📞</div>
+                  <div>
+                    <div class="contact__detail-label">Téléphone</div>
+                    <div class="contact__detail-value">
+                      <a href="tel:+33662557266">+33 6 62 55 72 66</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact__detail">
+                  <div class="contact__detail-icon" aria-hidden="true">📸</div>
+                  <div>
+                    <div class="contact__detail-label">Instagram</div>
+                    <div class="contact__detail-value">
+                      <a href="https://www.instagram.com/leamakeupstudio" target="_blank" rel="noopener">@leamakeupstudio</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact__detail">
+                  <div class="contact__detail-icon" aria-hidden="true">🕐</div>
+                  <div>
+                    <div class="contact__detail-label">Horaires</div>
+                    <div class="contact__detail-value">
+                      Lundi – Samedi : 9h00 – 19h00<br>
+                      <span style="color: var(--color-text-muted); font-size:0.82rem;">Dimanche : fermé</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a href="https://wa.me/33662557266" target="_blank" rel="noopener" class="contact__whatsapp">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+                <path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.555 4.122 1.524 5.855L.053 23.947a.5.5 0 0 0 .622.609l6.318-1.657A11.938 11.938 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.894a9.882 9.882 0 0 1-5.032-1.377l-.36-.214-3.742.982.999-3.648-.235-.374A9.879 9.879 0 0 1 2.106 12C2.106 6.53 6.53 2.106 12 2.106S21.894 6.53 21.894 12 17.47 21.894 12 21.894z"/>
+              </svg>
+              Écrire sur WhatsApp
+            </a>
+
+            <div class="contact__map" aria-label="Localisation du studio sur la carte">
+              <iframe
+                src="https://www.openstreetmap.org/export/embed.html?bbox=7.2620%2C43.6980%2C7.2820%2C43.7080&layer=mapnik&marker=43.7030%2C7.2720"
+                title="Lea Maquillage Permanent Nice — 2 rue Pertinax, 06000 Nice"
+                loading="lazy"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===========================
+       FOOTER
+  =========================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <div class="footer__logo">Lea</div>
+          <p class="footer__tagline">Beauté naturelle, résultats durables.</p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/leamakeupstudio" target="_blank" rel="noopener" aria-label="Instagram @leamakeupstudio">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/leamakeupstudio" target="_blank" rel="noopener" aria-label="Facebook Lea Maquillage Permanent">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__col-title">Navigation</h4>
+          <ul class="footer__links">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__col-title">Contact</h4>
+          <ul class="footer__links">
+            <li><a href="tel:+33662557266">+33 6 62 55 72 66</a></li>
+            <li><a href="https://wa.me/33662557266" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li style="color: var(--color-text-muted); font-size:0.85rem; font-weight:300;">2 rue Pertinax<br>06000 Nice</li>
+            <li style="color: var(--color-text-muted); font-size:0.85rem; font-weight:300; margin-top:4px;">Lu–Sa : 9h00–19h00</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          © 2026 Lea Maquillage Permanent Nice. Tous droits réservés. ·
+          Site réalisé par <a href="https://risesitelab.com" target="_blank" rel="noopener">GrowthSite Lab</a>
+        </p>
+        <nav class="footer__legal" aria-label="Liens légaux">
+          <a href="privacy.html">Politique de confidentialité</a>
+          <a href="terms.html">Conditions générales</a>
+          <a href="refund.html">Remboursements</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/33662557266" target="_blank" rel="noopener"
+     class="wa-float" aria-label="Contacter via WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.555 4.122 1.524 5.855L.053 23.947a.5.5 0 0 0 .622.609l6.318-1.657A11.938 11.938 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.894a9.882 9.882 0 0 1-5.032-1.377l-.36-.214-3.742.982.999-3.648-.235-.374A9.879 9.879 0 0 1 2.106 12C2.106 6.53 6.53 2.106 12 2.106S21.894 6.53 21.894 12 17.47 21.894 12 21.894z"/>
+    </svg>
+  </a>
+
+  <script>
+    // ============================================================
+    // NAVIGATION: scroll behavior + hamburger
+    // ============================================================
+    (function () {
+      const nav = document.getElementById('nav');
+      const hamburger = document.getElementById('hamburger');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const mobileLinks = document.querySelectorAll('.mobile-link');
+
+      window.addEventListener('scroll', function () {
+        nav.classList.toggle('scrolled', window.scrollY > 40);
+      }, { passive: true });
+
+      hamburger.addEventListener('click', function () {
+        const isOpen = hamburger.classList.toggle('open');
+        mobileMenu.classList.toggle('open', isOpen);
+        hamburger.setAttribute('aria-expanded', String(isOpen));
+        document.body.style.overflow = isOpen ? 'hidden' : '';
+      });
+
+      mobileLinks.forEach(function (link) {
+        link.addEventListener('click', function () {
+          hamburger.classList.remove('open');
+          mobileMenu.classList.remove('open');
+          hamburger.setAttribute('aria-expanded', 'false');
+          document.body.style.overflow = '';
+        });
+      });
+    })();
+
+    // ============================================================
+    // SCROLL REVEAL — Intersection Observer
+    // ============================================================
+    (function () {
+      const reveals = document.querySelectorAll('.reveal');
+      if (!window.IntersectionObserver) {
+        reveals.forEach(function (el) { el.classList.add('visible'); });
+        return;
+      }
+      const observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+      reveals.forEach(function (el) { observer.observe(el); });
+    })();
+
+    // ============================================================
+    // CONTACT FORM — Fake Submit
+    // ============================================================
+    (function () {
+      const form = document.getElementById('contact-form');
+      const modal = document.getElementById('success-modal');
+
+      if (!form) return;
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        // Honeypot check
+        const botField = form.querySelector('[name="botcheck"]');
+        if (botField && botField.value) return;
+
+        // Basic validation
+        const prenom = form.querySelector('[name="prenom"]');
+        const telephone = form.querySelector('[name="telephone"]');
+        const service = form.querySelector('[name="service"]');
+        const gdpr = form.querySelector('[name="gdpr"]');
+
+        if (!prenom.value.trim()) {
+          prenom.focus();
+          prenom.style.borderColor = '#C0392B';
+          return;
+        }
+        if (!telephone.value.trim()) {
+          telephone.focus();
+          telephone.style.borderColor = '#C0392B';
+          return;
+        }
+        if (!service.value) {
+          service.focus();
+          service.style.borderColor = '#C0392B';
+          return;
+        }
+        if (!gdpr.checked) {
+          gdpr.parentElement.style.color = '#C0392B';
+          setTimeout(function () {
+            gdpr.parentElement.style.color = '';
+          }, 2000);
+          return;
+        }
+
+        // Show modal
+        modal.classList.add('active');
+        form.reset();
+      });
+
+      // Close modal on backdrop click
+      modal.addEventListener('click', function (e) {
+        if (e.target === modal) {
+          modal.classList.remove('active');
+        }
+      });
+
+      // Close modal on Escape
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+          modal.classList.remove('active');
+        }
+      });
+    })();
+  </script>
+
+</body>
+</html>
